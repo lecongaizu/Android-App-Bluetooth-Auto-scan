@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth-Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="Text">Status of Bluetooth: </string>
+    <string name="on">Turn On</string>
+    <string name="off">Turn Off</string>
+    <string name="Find">Scan new Devices</string>
+</resources>

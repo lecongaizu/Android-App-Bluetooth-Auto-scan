@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/background"
+	tools:context=".MainActivity" >
+
+	<TextView
+		android:id="@+id/text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:text="@string/Text" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="30dp"
+		android:weightSum="1">
+
+		<Button
+			android:id="@+id/turnOn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#FF33B5E5"
+			android:text="@string/on"
+			android:layout_weight="0.09"/>
+
+		<Button
+			android:id="@+id/turnOff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#FFFF4444"
+			android:text="@string/off"
+			android:layout_weight="0.09" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginTop="80dp" >
+
+
+		<Button
+			android:id="@+id/search"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#FF99CC00"
+			android:text="@string/Find" />
+
+		<ListView
+			android:id="@+id/listView1"
+			android:layout_width="fill_parent"
+			android:layout_height="384dp" >
+
+		</ListView>
+
+	</LinearLayout>
+
+</RelativeLayout>
